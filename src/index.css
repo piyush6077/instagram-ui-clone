@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+@layer components{
+    .active{
+        font-weight: bolder;
+    }
+
+    .bgcolor{
+        color:white;
+        background-color: rgb(14, 14, 14);;
+    }
+
+    .line-height{
+        line-height: 18px;
+    }
+}
+
+::-webkit-scrollbar{
+    width: .5rem;
+    height: 1rem;
+    padding: 20px;
+    background-color: rgb(56, 56, 56);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(36, 35, 35);
+    border-radius: 10px;
+}
