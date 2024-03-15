@@ -1,4 +1,5 @@
 import React from 'react'
+import Post from '../components'
 
 function Slider() {
   return (
@@ -14,12 +15,7 @@ function Slider() {
        </div>
        <div className="postContainer w-full h-[80%] ">
           <div className="postBox w-full flex-col flex items-center gap-3 pt-5">
-             <div className="post w-[75%]  bg-yellow-400 h-[800px]"></div>
-             <div className="post  w-[75%] bg-yellow-400 h-[800px]"></div>
-             <div className="post  w-[75%] bg-yellow-400 h-[800px]"></div>
-             <div className="post  w-[75%] bg-yellow-400 h-[800px]"></div>
-             <div className="post  w-[75%] bg-yellow-400 h-[800px]"></div>
-             <div className="post  w-[75%] bg-yellow-400 h-[800px]"></div>
+            <Post/>   
           </div>
        </div>      
     </div>
